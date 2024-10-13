@@ -1,16 +1,17 @@
 <?php
-$nim = "23215007";
-$nama = 'Putri Areka Sandra';
-$umur = 20;
-$nilai = 4.85;
-$status = TRUE;
+$string = "Putri Areka Sandra";
 
-echo "Nim : " . $nim . "<br>";
-echo "Nama : $nama<br>";
-print "Umur : " . $umur; print "<br>"; 
-printf("Nilai : %.3f<br>", $nilai);
-if ($status)
-	echo "Status : Aktif";
-else
-	echo "Status : Tidak Aktif";
+$integer = 19;
+
+$float = 1.61;
+
+$boolean = true; 
+
+$array = array("Seblak", "Mie", "Bakso");
+
+echo "Tipe Data String: $string<br>";
+echo "Tipe Data Integer: $integer<br>";
+echo "Tipe Data Float: $float meter<br>";
+echo "Tipe Data Boolean: " . ($boolean ? "Mahasiswa" : "Bukan Mahasiswa") . "<br>";
+echo "Tipe Data Array: " . implode(", ", $array);
 ?>

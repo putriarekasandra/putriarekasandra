@@ -1,7 +1,9 @@
 <?php
+$nama = "Putri Areka Sandra";
 $nim = "23215007";
-$nama = 'Putri Areka Sandra';
+$prodi = "Teknik Informatika";
 
-echo "Nim : " . $nim . "<br>";
-echo "Nama : $nama";
+echo "Nama : $nama<br>";
+echo "Nim : $nim<br>";
+echo "Prodi : $prodi";
 ?>

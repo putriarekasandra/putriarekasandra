@@ -1,12 +1,27 @@
 <?php
-$umur = 25;
-$penjumlahan = $umur + 5;
-$pengurangan = $umur - 5;
-$perkalian = $umur * 5;
-$pembagian = $umur / 5;
+$a = 10;
+$b = 5;
 
-echo "penjumlahan: $penjumlahan";
-echo "<br>pengurangan: $pengurangan";
-echo "<br>perkalian: $perkalian";
-echo "<br>pembagian: $pembagian";
+echo "Operator Aritmatika:<br>";
+echo "$a + $b = " . ($a + $b) . "<br>";
+echo "$a - $b = " . ($a - $b) . "<br>";
+echo "$a * $b = " . ($a * $b) . "<br>";
+echo "$a / $b = " . ($a / $b) . "<br>";
+echo "$a % $b = " . ($a % $b) . "<br><br>";
+
+$c = 8;
+$d = 10;
+
+echo "Operator Pembanding:<br>";
+echo "$c == $c ? " . ($c == $c ? "true" : "false") . "<br>";
+echo "$c != $d ? " . ($c != $d ? "true" : "false") . "<br>";
+echo "$c > $b ? " . ($c > $b ? "true" : "false") . "<br>";
+echo "$c < $d ? " . ($c < $d ? "true" : "false") . "<br><br>";
+
+$h = 10;
+
+echo "Operator Increment dan Decrement:<br>";
+echo "Nilai awal h: $h<br>";
+echo "h++ => " . ($h++) . "<br>";
+echo "h-- => " . ($h--) . "<br>";
 ?>
